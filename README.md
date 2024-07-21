@@ -60,7 +60,9 @@ Sigue los siguientes pasos para clonar y ejecutar este proyecto en tu entorno lo
 
 5. **Resultado:**
 
-
-<iframe width="320" height="180" src="Summary.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="1"></iframe>
+```html
+<video src="summary.mp4" controls>
+  Resultado
+</video>
 
 
