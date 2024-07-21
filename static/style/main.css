@@ -1,0 +1,63 @@
+
+    
+    
+    .navbar-brand, .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    }
+
+
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        padding-top: 70px; /* Ajusta este valor según la altura de tu barra de navegación */
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+
+    .container {
+        max-width: 600px;
+    }
+
+    
+    .form-upload {
+        margin-top: 40px; /* Aumenta el margen superior para empujar el formulario hacia abajo */
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        width: 100%; /* Asegura que el formulario use todo el ancho del contenedor */
+        box-sizing: border-box; /* Asegura que el padding no aumente el ancho del elemento */
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .btn-upload {
+        display: block;
+        width: 100%;
+    }
+
+    .content {
+        flex: 1;
+    }
+
+
+    .footer {
+        font-family: 'Montserrat', sans-serif;
+        padding: 24px;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        position: relative;
+
+        width: 100%;
+        clear: both;
+    }
+    

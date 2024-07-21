@@ -1,0 +1,38 @@
+.tech-skills-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tech-skills-table th, .tech-skills-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.tech-skills-table tr:nth-child(even){background-color: #f2f2f2;}
+.tech-skills-table tr:hover {background-color: #ddd;}
+.tech-skills-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 70px; /* Ajusta este valor según la altura de tu barra de navegación */
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: relative;
+
+    width: 100%;
+    clear: both;
+}
